@@ -2,20 +2,7 @@
 
 A robust weather monitoring application built with Node.js and Express, using the OpenWeatherMap API to fetch and display real-time weather data for multiple cities. The app includes automated weather data collection, data storage, and alert features, all of which are containerized for easy deployment.
 
-## 📑 Table of Contents
-- [Features](#features)
-- [Design Choices](#design-choices)
-- [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
-- [Architecture Overview](#architecture-overview)
-- [Installation](#installation)
-- [Running the Application](#running-the-application)
-- [Docker Setup](#docker-setup)
-  - [Building the Docker Image](#building-the-docker-image)
-  - [Running the Docker Container](#running-the-docker-container)
-  - [Using Docker Compose](#using-docker-compose)
-- [Dependencies](#dependencies)
-- [API Endpoints](#api-endpoints)
+
 
 
 ## 🌟 Features
