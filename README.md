@@ -49,6 +49,6 @@ The application follows a simple architecture:
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/
-Nadeemkkhan/BreadcrumbsReal-Time-Data-Processing-System-for-Weather-Monitoring
+Nadeemkkhan/Real-Time-Data-Processing-System-for-Weather-Monitoring
 .git
 cd weather-monitoring
