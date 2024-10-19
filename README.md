@@ -48,5 +48,6 @@ The application follows a simple architecture:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/weather-monitoring.git
+git clone https://github.com/
+Nadeemkkhan/weather-monitoring.git
 cd weather-monitoring
