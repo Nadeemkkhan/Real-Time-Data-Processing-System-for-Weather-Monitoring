@@ -1,9 +1,7 @@
+
 # 🌤️ Weather Monitoring Application
 
 A robust weather monitoring application built with Node.js and Express, using the OpenWeatherMap API to fetch and display real-time weather data for multiple cities. The app includes automated weather data collection, data storage, and alert features, all of which are containerized for easy deployment.
-
-
-
 
 ## 🌟 Features
 - **Real-time Weather Data:** Fetches and displays current weather for multiple cities.
@@ -48,7 +46,58 @@ The application follows a simple architecture:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/
-Nadeemkkhan/Real-Time-Data-Processing-System-for-Weather-Monitoring
-.git
-cd weather-monitoring
+git clone https://github.com/Nadeemkkhan/Real-Time-Data-Processing-System-for-Weather-Monitoring.git
+cd Real-Time-Data-Processing-System-for-Weather-Monitoring
+```
+
+### Step 2: Configure Environment Variables
+- Create a `.env` file in the root of the project directory with your OpenWeatherMap API key:
+  ```env
+  API_KEY=your_openweathermap_api_key_here
+  ```
+
+### Step 3: Install Node.js Dependencies
+```bash
+npm install
+```
+
+## 🏃 Running the Application
+
+### Development Mode
+To run the application in development mode with hot-reloading:
+```bash
+node index.js 
+```
+
+## 🐳 Docker Setup
+
+### Building the Docker Image
+Build the Docker image to containerize the Node.js application:
+```bash
+docker build -t weather-monitoring .
+```
+
+### Running the Docker Container
+Run the container with:
+```bash
+docker run -d -p 3000:3000 weather-monitoring
+```
+
+
+## 🧩 Dependencies
+
+- **Node.js Modules:**
+  - `express`: Web framework for handling routes
+  - `axios`: For making HTTP requests to the weather API
+  - `sqlite3`: In-memory database for storing weather data
+  - `node-cron`: Scheduler for periodic data collection
+- **Docker Components:**
+  - **Docker**: Used to containerize the web server and database
+  - **Docker Compose**: For managing multi-container setups
+
+## 📊 API Endpoints
+
+### Endpoint: `/weather`
+- **Method:** GET
+- **Description:** Fetches the latest weather data for predefined cities.
+
