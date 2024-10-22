@@ -66,7 +66,8 @@ npm install
 ### Development Mode
 To run the application in development mode with hot-reloading:
 ```bash
-node index.js 
+node index.js
+Access the application at http://localhost:3000.
 ```
 
 ## 🐳 Docker Setup
@@ -81,6 +82,7 @@ docker build -t weather-monitoring .
 Run the container with:
 ```bash
 docker run -d -p 3000:3000 weather-monitoring
+Access the application at http://localhost:3000.
 ```
 
 
